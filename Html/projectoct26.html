@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    h1{ padding:30px;
+       padding-left: 20px;
+       font-size:70px;background-color: slategray;
+    }
+    ul{list-style-type: none;display:inline-flex;
+        padding-left: 100px;
+        padding-bottom: 50px;
+     }
+    li{
+    padding-left: 150px;
+     color: red;
+    font-size: 35px;display: block;color: tomato;
+}
+
+th,td,table{ 
+    border: 2px solid black;
+    text-align: center;
+}a.link{
+    color: crimson;
+}div{
+    padding-left: 200px;
+}h3{
+    padding-left: 200;
+}span{
+    padding-left: 1000px;
+}
+#h1{margin-left:
+    1300px;
+}button{
+    background-color: blue;
+}
+</style>
+
+
+</head>
+<button id=h1 onclick="document.getElementById('nikhil').innerHTML=Date();">check date & time</button>
+<p id="nikhil"></p>
+<body id=k1>
+
+    <h1>FLOWERS & PLANTS</h1> 
+    <hr>
+    <ul>
+    <li><a href="https:\\www.flowers.com">Flowers</a></li>
+    <li><a href="https:\\www.plants.com">Plants</a></li>
+    <li><a href="https:\\www.care tips.com">Care tips</a></li>
+    <li><a href="www.latestnews.com">News</a></li>
+    </ul>
+    <hr>
+<div>
+ <table style="width: 1000px;">
+   <tr>
+    <th>NAME</th>
+    <th>DISCRIPTION</th>
+    <th>BUTTON</th>
+    <th>IMAGE</th>
+   </tr>
+   <tr>
+    
+    <td>Rose</td>
+    <td>The rose is a type of flowering shrub.<br>
+        Its name comes from the Latin word Rosa.<br>
+        The flowers of the rose grow in many different colors, from the well-known red rose or yellow rose and sometimes white or purple rose.<br>
+        Roses belong to the family of plants called Rosaceae</td>
+    <td><button><a href = "rose.html" >click me</a></button></td>
+    <td><img src="C:\Users\HP\Downloads\rose.JPG" width="60px" height="60px"></td>
+    </tr>
+
+    <tr>
+        <td>sunflower</td>
+        <td>Helianthus annuus, the common sunflower, is a large annual forb of the genus Helianthus grown as a crop for its edible oil and edible fruits. This sunflower species is also used as wild bird food, as livestock forage, in some industrial applications, and as an ornamental in domestic gardens</td>
+        <td><button><a href = "sunflower.html" >click me</a></button></td>
+        <td><img src="C:\Users\HP\Downloads\sunflower.JFIF" width="60px" height="60px"></td>
+    </tr>
+
+    <tr>
+        <td>LOTUS</td>
+        <td>Nelumbo nucifera, also known as Indian lotus, sacred lotus, or simply lotus, is one of two extant species of aquatic plant in the family Nelumbonaceae. It is sometimes colloquially called a water lily, though this more often refers to members of the family Nymphaeaceae.</td>
+        <td><button><a href = "lotus.html"target="blank">click me</a></button></td>
+        <td><img src="C:\Users\HP\Downloads\lotus.JFIF" width="60px" height="60px"></td>
+    </tr>
+</table>
+</div>
+<script>
+    var i=0
+ function myfunction(){
+     let colors=["red","black","gray","yello","green","violet","orange"]
+     document.getElementById('k1').style.backgroundColor=colors[i];
+     i++;
+     if(i>=colors.length){
+         i=0;
+     }
+
+ }
+</script>
+
+<button onclick="myfunction()">DANGER</button>
+</body>
+</html>
